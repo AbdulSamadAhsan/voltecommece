@@ -1,0 +1,34 @@
+"use client";
+import { useState } from "react";
+import { Eye, EyeOff } from "lucide-react";
+export function PasswordField({
+  label = "Password",
+  name = "password",
+  autoComplete = "current-password",
+  minLength = 12,
+}) {
+  const [show, setShow] = useState(false);
+  return (
+    <label>
+      {label}
+      <span className="password-field">
+        <input
+          name={name}
+          type={show ? "text" : "password"}
+          autoComplete={autoComplete}
+          minLength={minLength}
+          maxLength={128}
+          required
+        />
+        <button
+          type="button"
+          aria-label={`${show ? "Hide" : "Show"} ${label.toLowerCase()}`}
+          aria-pressed={show}
+          onClick={() => setShow(!show)}
+        >
+          {show ? <EyeOff size={18} /> : <Eye size={18} />}
+        </button>
+      </span>
+    </label>
+  );
+}

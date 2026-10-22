@@ -1,0 +1,16 @@
+name: Durable order maintenance
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+jobs:
+  maintain:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Release expired reservations and retry refunds
+        env:
+          STORE_URL: ${{ secrets.STORE_URL }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          test -n "$STORE_URL" && test -n "$CRON_SECRET"
+          curl --fail --silent --show-error --retry 3 --retry-all-errors --max-time 50 -H "Authorization: Bearer $CRON_SECRET" "$STORE_URL/api/cron"
