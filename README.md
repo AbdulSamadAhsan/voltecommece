@@ -35,14 +35,14 @@ Captured from the deployed application. Expand each section for additional scree
 
 The homepage introduces the audio collection, category navigation, and store benefits.
 
-![VOLT storefront showing the electronics hero, navigation, and shopping benefits](docs/screenshots/storefront.png)
+![VOLT storefront showing the electronics hero, navigation, and shopping benefits](docs/screenshots/storefront.jpg)
 
 <details>
 <summary><strong>Catalog — search, filters, and product cards</strong></summary>
 
 Browse electronics by category, brand, price, and sort order.
 
-![Product catalog with search and filtering controls, wishlist buttons, prices, and add-to-bag actions](docs/screenshots/catalog.png)
+![Product catalog with search and filtering controls, wishlist buttons, prices, and add-to-bag actions](docs/screenshots/catalog.jpg)
 
 </details>
 
@@ -51,7 +51,7 @@ Browse electronics by category, brand, price, and sort order.
 
 Product photography, edition selection, live stock, and cart actions in one view.
 
-![Sony headphone product page showing its image, price, edition selector, stock availability, and purchase controls](docs/screenshots/product-detail.png)
+![Sony headphone product page showing its image, price, edition selector, stock availability, and purchase controls](docs/screenshots/product-detail.jpg)
 
 </details>
 
@@ -60,7 +60,7 @@ Product photography, edition selection, live stock, and cart actions in one view
 
 Administrators use a separate sign-in screen with password visibility controls. Public registration remains available to customers only.
 
-![Administrator sign-in screen with email and password fields, a visibility toggle, and no registration option](docs/screenshots/admin-sign-in.png)
+![Administrator sign-in screen with email and password fields, a visibility toggle, and no registration option](docs/screenshots/admin-sign-in.jpg)
 
 </details>
 
