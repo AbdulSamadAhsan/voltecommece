@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   maintain:
+    if: ${{ vars.ENABLE_ORDER_MAINTENANCE == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Release expired reservations and retry refunds
