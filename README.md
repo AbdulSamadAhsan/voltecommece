@@ -56,6 +56,15 @@ Product photography, edition selection, live stock, and cart actions in one view
 </details>
 
 <details>
+<summary><strong>Admin dashboard — analytics and store operations</strong></summary>
+
+The dashboard brings revenue, orders, customer counts, low-stock alerts, and store-management navigation into one view. This capture shows the initial seeded store state.
+
+![VOLT admin dashboard showing analytics summary cards, management tabs, and the operations overview](docs/screenshots/admin-dashboard.jpg)
+
+</details>
+
+<details>
 <summary><strong>Admin access — dedicated sign-in</strong></summary>
 
 Administrators use a separate sign-in screen with password visibility controls. Public registration remains available to customers only.
