@@ -10,6 +10,7 @@ VOLT is a full-stack electronics storefront built with Next.js App Router and Ja
 
 ## Contents
 
+- [Screenshots](#screenshots)
 - [Features](#features)
 - [Technology](#technology)
 - [Architecture](#architecture)
@@ -25,6 +26,43 @@ VOLT is a full-stack electronics storefront built with Next.js App Router and Ja
 - [API overview](#api-overview)
 - [Operations and current scope](#operations-and-current-scope)
 - [Troubleshooting](#troubleshooting)
+
+## Screenshots
+
+Captured from the deployed application. Expand each section for additional screens.
+
+### Storefront
+
+The homepage introduces the audio collection, category navigation, and store benefits.
+
+![VOLT storefront showing the electronics hero, navigation, and shopping benefits](docs/screenshots/storefront.png)
+
+<details>
+<summary><strong>Catalog — search, filters, and product cards</strong></summary>
+
+Browse electronics by category, brand, price, and sort order.
+
+![Product catalog with search and filtering controls, wishlist buttons, prices, and add-to-bag actions](docs/screenshots/catalog.png)
+
+</details>
+
+<details>
+<summary><strong>Product detail — editions, pricing, and availability</strong></summary>
+
+Product photography, edition selection, live stock, and cart actions in one view.
+
+![Sony headphone product page showing its image, price, edition selector, stock availability, and purchase controls](docs/screenshots/product-detail.png)
+
+</details>
+
+<details>
+<summary><strong>Admin access — dedicated sign-in</strong></summary>
+
+Administrators use a separate sign-in screen with password visibility controls. Public registration remains available to customers only.
+
+![Administrator sign-in screen with email and password fields, a visibility toggle, and no registration option](docs/screenshots/admin-sign-in.png)
+
+</details>
 
 ## Features
 
