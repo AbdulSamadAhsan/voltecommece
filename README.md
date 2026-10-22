@@ -4,7 +4,7 @@
 
 VOLT is a full-stack electronics storefront built with Next.js App Router and JavaScript. It combines a responsive shopping experience, customer accounts, store administration, and transaction-based inventory management in one application.
 
-[Live storefront](https://volt-commerce-three.vercel.app) Â· [Admin sign-in](https://volt-commerce-three.vercel.app/admin/login) Â· [Architecture](ARCHITECTURE.md)
+[Live storefront](https://volt-commerce-three.vercel.app) · [Admin sign-in](https://volt-commerce-three.vercel.app/admin/login) · [Architecture](ARCHITECTURE.md)
 
 [![Verify](https://github.com/AbdulSamadAhsan/voltecommece/actions/workflows/ci.yml/badge.svg)](https://github.com/AbdulSamadAhsan/voltecommece/actions/workflows/ci.yml)
 
