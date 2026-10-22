@@ -1126,3 +1126,5 @@ td {
   background: transparent;
   color: var(--muted);
 }
+
+.password-control { display:grid; gap:7px; }
